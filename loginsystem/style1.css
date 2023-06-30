@@ -1,0 +1,135 @@
+/* Navbar styles */
+nav {
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Section styles */
+  section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* Media queries */
+  @media only screen and (max-width: 768px) {
+    /* Navbar styles */
+    nav {
+      height: auto;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    /* Section styles */
+    section {
+      margin: 20px 10px;
+    }
+  }
+
+       /* Add styles for the header section */
+       header {
+        background-color: #334;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      body {
+        background-image: url('https://png.pngtree.com/back_origin_pic/04/30/31/5c2031482b4ddaebad80545e0550cb04.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      /* Add styles for the products section */
+      .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .product {
+        
+        background-color: #f2f2f2;
+        border: 1px solid black;
+        width: 30%;
+        height: 500px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .product img {
+        position:absolute;
+        width: 40%;
+        max-height: 200px;
+        margin: 20px auto;
+      }
+
+      .product h3 {
+        position: absolute;
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      .product p {
+       position: absolute;
+        font-size: 16px;
+        margin: 20px;
+      }
+
+      .buy-now {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        
+        width: 100px; /* or width: 100%; */
+        height: 50px;
+        background-color: #13e54b;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        
+      }
+       
+      
+
+      
+
+      /* Add styles for the footer section */
+      footer {
+        background-color: #334;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: static;
+        bottom: 0;
+        width: 100%;
+      }
+
+  
